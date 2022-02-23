@@ -8,6 +8,7 @@ export function formatFileSize(bytes, decimalPoint) {
   const i = Math.floor(Math.log(bytes) / Math.log(1000));
   return parseFloat((bytes / Math.pow(1000, i)).toFixed(dm)) + ' ' + sizes[i];
 }
+<<<<<<< HEAD
 
 function delay(milliseconds) {
   return new Promise((resolve) => {
@@ -41,3 +42,5 @@ export async function downloadMultiFiles(allMedia) {
     }
   });
 }
+=======
+>>>>>>> d1a97f3 (transfer)

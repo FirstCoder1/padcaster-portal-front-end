@@ -74,11 +74,15 @@ export function useFilteredMediaList(data, searchQuery) {
             email: member?.email,
           })
         ),
+<<<<<<< HEAD
         type: media?.type,
         url: media?.url,
         video: media?.video,
         audio: media?.audio,
         duration: media?.duration,
+=======
+        type,
+>>>>>>> d1a97f3 (transfer)
       };
     });
 
