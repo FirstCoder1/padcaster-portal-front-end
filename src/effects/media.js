@@ -80,9 +80,13 @@ export function useFilteredMediaList(data, searchQuery) {
         video: media?.video,
         audio: media?.audio,
         duration: media?.duration,
+<<<<<<< HEAD
 =======
         type,
 >>>>>>> d1a97f3 (transfer)
+=======
+        parent: media?.folder,
+>>>>>>> e394aa5 (fix confilict)
       };
     });
 
